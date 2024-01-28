@@ -13,7 +13,7 @@ b2 = (7.75*10**(-19))
 #Sets up our system of equations
 eq1 = sp.Eq((c*(x-y)**2), b1)
 eq2 = sp.Eq((c*((x**2)-(y**2))), b2)
-#Solves system of eqations for dipole moment values
+#Solves system of eqautions for dipole moment values
 ans = sp.solve([eq1,eq2],dict=True)
 #Outputs in LaTeX form to Jupyter
 ans
